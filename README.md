@@ -1,0 +1,2 @@
+# learnjs
+Javascript notes 
