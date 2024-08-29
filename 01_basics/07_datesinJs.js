@@ -15,5 +15,18 @@ console.log(typeof myDate);//object
 
 let myCreatedDate = new Date("2024-08-29")//to give a specific format we use this method also here we ar usin mm for months so we can call months normaly according to there occurence number
 
+console.log(myCreatedDate.toLocaleString);
+
+let myTimestamp = Date.now() //convert into milisecond to create a poll time
+console.log(myTimestamp.get)
+console.log(myCreatedDate.getTime());//convert int miliseconds to compare or for poll
+ //convert it into second
+ console.log(Math.floor(Date.now()/1000));
+ newDate.toLocaleString('default',{
+weekday: "long"
+//can also use other properties
+ })
+
+ //ctrl space gives property
 
 
